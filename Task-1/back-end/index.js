@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("home page");
+  res.send("Home page");
 });
 
 const registerController = require("./controllers/register.controller");
